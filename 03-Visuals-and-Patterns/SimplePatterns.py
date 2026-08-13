@@ -49,7 +49,7 @@ def half_pyramid(n):
         print("")
 
 half_pyramid(5)
-
+print()
 def inverted_half_pyramid(n):
     for i in range(n, 0, -1):
         for j in range(1, i + 1):
@@ -76,6 +76,5 @@ def inverted_half_pyramid(n):
         print("\r")
 
 inverted_half_pyramid(4)
-
 
 
